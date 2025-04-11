@@ -58,6 +58,12 @@ button{
     align-items: center;
     width: 80%;
 }
+.main__icon-price{
+    display: flex;
+}
+.main__icon{
+    margin-inline-end: 1.5rem;
+}
 .main__annual{
     color: hsl(223, 47%, 23%);
     font-weight: 900;
