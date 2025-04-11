@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+    padding: 1.5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+button{
+    font-family: 'Red Hat Display';
+}
+.main{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main__illustration{
+    border-radius: 20px 20px 0 0;
+}
+.main__h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-block: 2.375rem 1.75rem;
+    padding-inline: 2rem;
+}
+.main__description{
+    color: hsl(224, 23%, 55%);
+    padding-inline: 2rem;
+    max-width: 350px;
+}
+
+.main__plan{
+    max-width: 300px;
+
+    margin-block: 2.85rem 2.65rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.main__annual{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.main__price{
+    color: hsl(224, 23%, 55%);
+}
+
+.main__change{
+    color: hsl(245, 75%, 52%);
+    font-size: .85rem;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+.main__pay,.main__cancel{
+    padding-block: 1.25rem;
+    width: 80%;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    font-weight: 900;
+    border: 0;
+    border-radius: 10px;
+}
+.main__cancel{
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+    }
+    .main{
+        padding-block-end: 3.25rem;
+    }
+    .main__h1{
+        margin-block: 3.25rem 2rem;
+    }
+    .main__plan{
+        margin-block: 3.125rem 3.75rem;
+    }
+    .main__cancel{
+        padding-block-end: 0;
+    }
+}
