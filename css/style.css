@@ -62,7 +62,7 @@ button{
     display: flex;
 }
 .main__icon{
-    margin-inline-end: 1.5rem;
+    margin-inline-end: 1rem;
 }
 .main__annual{
     color: hsl(223, 47%, 23%);
@@ -80,7 +80,7 @@ button{
 }
 
 .main__pay,.main__cancel{
-    padding-block: 1rem;
+    padding-block: 1.125rem;
     width: 80%;
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
@@ -105,7 +105,7 @@ button{
         padding-block-end: 3rem;
     }
     .main__h1{
-        font-size: 1.875rem;
+        font-size: 1.75rem;
         margin-block: 3.25rem 2rem;
     }
     .main__plan{
