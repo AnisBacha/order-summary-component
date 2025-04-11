@@ -30,6 +30,8 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    box-shadow: 0 10px 20px 5px hsla(245, 75%, 52%, 0.15);
 }
 .main__illustration{
     border-radius: 20px 20px 0 0;
@@ -72,13 +74,16 @@ button{
 }
 
 .main__pay,.main__cancel{
-    padding-block: 1.25rem;
+    padding-block: 1rem;
     width: 80%;
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
     font-weight: 900;
     border: 0;
     border-radius: 10px;
+}
+.main__pay{
+    box-shadow: 0px 5px 10px 0px hsla(245, 75%, 52%, 0.267);
 }
 .main__cancel{
     background-color: white;
@@ -91,9 +96,10 @@ button{
         background-repeat: no-repeat;
     }
     .main{
-        padding-block-end: 3.25rem;
+        padding-block-end: 3rem;
     }
     .main__h1{
+        font-size: 1.875rem;
         margin-block: 3.25rem 2rem;
     }
     .main__plan{
